@@ -1,0 +1,36 @@
+.bio_wrapper {
+    width: 100%;
+    height: 55vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+#bio_card {
+    height: 100%;
+    width: 100%;
+
+    background-color: #A6E22Ea1;
+
+    top: 30%;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+
+    color: white;
+
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.card-text {
+    height: 100%;
+    width: 100%;
+
+    font-size: 33px;
+    margin-top: 25px;
+
+    word-spacing: 5px;
+}

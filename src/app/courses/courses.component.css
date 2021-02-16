@@ -1,0 +1,136 @@
+.courses_wrapper {
+    width: 100%;
+    height: 85vh;
+
+    background-color: #252525;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.courses_header {
+    color: white;
+
+    z-index: 2;
+}
+
+/* ------------------Images------------------ */
+.image_wrapper {
+    width: 25%;
+    height: 40%;
+    
+    background-color: #AE81FF;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.image {
+    width: 25%;
+    height: 40%;
+
+    background-color: #75715E;
+}
+
+#left_image_wrapper {
+    top: 8%;
+    left: 8%;
+}
+
+#left_image {
+    z-index: 2;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+#down_image_wrapper {
+    top: 65%;
+    left: 41%;
+}
+
+#down_image {
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+}
+
+#right_image_wrapper {
+    top: 8%;
+    left: 73%;
+}
+
+#right_image {
+    z-index: 2;
+    position: absolute;
+    top: 12%;
+    left: 70%;
+}
+
+/* ------------------Cards------------------ */
+
+.row {
+    width: 30%;
+    height: 42%;
+
+    color: white;
+}
+
+#card_left_wrapper {
+    position: absolute;
+    top: 56%;
+    left: 4%;
+}
+
+#card_up_wrapper {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+
+#card_right_wrapper {
+    position: absolute;
+    top: 56%;
+    left: 70%;
+}
+
+.card-title {
+    color: #F92672;
+}
+
+.card-text {
+    font-size: 22px;
+}
+
+button {
+    height: 25px;
+    width: 25px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    background-color: #A6E22E;
+    border-color: #A6E22E;
+
+    font-size: 25px;
+}
+
+button:hover, button:active {
+    background-color: #a6e22e9e;
+    border-color: #a6e22e9e;
+}
+
+button:visited {
+    background-color: #FD971F;
+    border-color: #FD971F;
+}
+
+button p {
+    position: absolute;
+    top: -20%;
+    right: 20%;
+}
