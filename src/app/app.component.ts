@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent {
   title = 'curriculum';
+
+  afuConfig = {
+    uploadAPI: {
+      url:"https://example-file-upload-api"
+    }
+  };
 }

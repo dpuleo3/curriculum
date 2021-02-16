@@ -1,18 +1,18 @@
 .bio_wrapper {
     width: 100%;
-    height: 55vh;
+    height: 60vh;
 
     display: flex;
     justify-content: center;
 }
 
 #bio_card {
-    height: 100%;
+    height: 90%;
     width: 100%;
 
     background-color: #A6E22Ea1;
 
-    top: 30%;
+    top: 35%;
 }
 
 .card-body {

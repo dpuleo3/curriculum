@@ -12,6 +12,10 @@ import { CoursesComponent } from './courses/courses.component';
 import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
 
+// angular-file-downloader
+import { AngularFileUploaderModule } from "angular-file-uploader";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,8 @@ import { SkillsComponent } from './skills/skills.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFileUploaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
