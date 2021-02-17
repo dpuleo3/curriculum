@@ -50,6 +50,7 @@ img {
     height: 90%;
 
     background-color: #252525a1;
+    border-radius: 5px;
 }
 
 .divider {

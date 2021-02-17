@@ -35,14 +35,30 @@
     height: 100%;
 
     background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+
+    transition: 1s ease-in-out;
 }
+.card::before {
+    transition: 1s ease-in-out;
+
+}
+/* ----------- CARD EFFECT ------------- */
+.card:hover .card-title {
+    display: none;
+}
+.card:hover .card-text {
+    display: inline-block;
+    transform: translateY(20px);
+}
+/* ----------- CARD EFFECT ------------- */
 
 .card-title {
+    font-size: 38px;
     color: #F92672;
 }
 
 .card-body {
-    background-color: #252525a1;
     border-radius: 5px;
 
     z-index: 1;
@@ -55,7 +71,13 @@
 }
 
 .card-text {
+    display: none;
     font-size: 24px;
+
+    border-radius: 5px;
+    background-color: #F92672a1;
+
+    padding: 10px;
 }
 
 img {
@@ -66,6 +88,8 @@ img {
 button {
     background-color: #A6E22E;
     border-color: #A6E22E;
+    margin: 20px;
+
 }
 
 button:hover, button:active {

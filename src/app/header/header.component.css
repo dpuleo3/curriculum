@@ -9,7 +9,7 @@
 .card {
     width: 100%;
 
-    background-color: #00000000;
+    background-color: #252525a1;
     color: white;
 
     position: absolute;
@@ -19,7 +19,7 @@
 
 .card-body {
     width: 100%;
-    background-color: #00000000;
+    background-color: #252525a1;
 
 }
 
