@@ -82,14 +82,22 @@
 
 img {
     position: absolute;
-    top: -395%;
+    top: -390%;
+}
+
+#trading_icon {
+    margin-left: -50px;
+}
+
+#cpu_icon {
+    margin-left: 30px;
+
 }
 
 button {
     background-color: #A6E22E;
     border-color: #A6E22E;
     margin: 20px;
-
 }
 
 button:hover, button:active {
