@@ -96,3 +96,50 @@ button:visited {
 
     background-color: #252525;
 }
+
+/* ---------------------------------------------- */
+
+@media (max-width: 576px) {
+
+    img {
+        display: none;
+    }
+
+    .pro_exp_wrapper {
+        width: 100%;
+        height: 115vh;
+    }
+
+    .header_wrapper {
+        width: 85%;
+        height: 65%;
+
+        top: 0%;
+        left: 0%;
+    }
+
+    .pro_exp_header {
+        font-size: 28px;
+        font-weight: bold;
+
+        top: 2%;
+        left: 5%;
+    }
+
+    .row {
+        width: 92%;
+        height: 84%;
+
+        top: 18%;
+        left: 8%;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    #second_card_text {
+        display: none;
+    }
+
+}
