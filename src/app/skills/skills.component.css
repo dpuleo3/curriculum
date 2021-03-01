@@ -1,9 +1,10 @@
 .skills_wrapper {
-    width: 100%;
+    width: 80%;
     height: 75vh;
 
     position: relative;
 
+    margin-left: 10%;
     display: flex;
     justify-content: center;
 }
@@ -31,12 +32,12 @@
     height: 30%;
 
     color: white;
-    font-size: 34px;
+    font-size: 31px;
     text-align: center;
 
     z-index: 3;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 72%;
 
 }
