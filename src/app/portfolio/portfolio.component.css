@@ -100,6 +100,10 @@ button {
     margin: 20px;
 }
 
+.stocks_link {
+    color: black;
+}
+
 button:hover, button:active {
     background-color: #a6e22e9e;
     border-color: #a6e22e9e;
