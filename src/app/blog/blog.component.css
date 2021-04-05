@@ -1,0 +1,75 @@
+.blog_wrapper {
+    height: 60vh;
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    background-color: #9c6afaaa;
+}
+
+.blog_header {
+    color: white;
+
+}
+
+.blog_image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+    z-index: -1;
+
+    background-image: url(../../assets/images/stockmarket.png);
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;   
+}
+
+.card {
+    width: 60%;
+
+    position: absolute;
+    top: 10%;
+
+    color: white;
+    background-color: #ef666600;
+    border-color: #ef666600;
+}
+
+.card-text {
+    font-size: 70px;
+}
+
+.btn {
+    background-color: #A6E22E;
+    border-color: #A6E22E;
+
+    padding: 3% 7% 3% 7%;
+    margin: 35px;
+}
+
+.fas {
+    font-size: 60px;
+} 
+
+.btn:hover, .btn:active {
+    background-color: #a6e22e9e;
+    border-color: #a6e22e9e;
+}
+
+.btn:visited {
+    background-color: #FD971F;
+    border-color: #FD971F;
+}
+
+/* --------------------------------------------------- */
+
+@media (max-width: 576px) {
+
+
+
+}

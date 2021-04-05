@@ -11,9 +11,7 @@ import { ProExperienceComponent } from './pro-experience/pro-experience.componen
 import { CoursesComponent } from './courses/courses.component';
 import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
-
-// angular-file-downloader
-import { AngularFileUploaderModule } from "angular-file-uploader";
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -26,12 +24,12 @@ import { AngularFileUploaderModule } from "angular-file-uploader";
     ProExperienceComponent,
     CoursesComponent,
     FooterComponent,
-    SkillsComponent
+    SkillsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFileUploaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
