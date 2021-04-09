@@ -2,50 +2,38 @@
 
     <h1 class="courses_header">Courses</h1>
 
-    <span id="left_image_wrapper" class="image_wrapper"></span>
-    <img id="left_image" class="image" src="../../assets/images/codecademy_image.jpeg">
-    <span id="down_image_wrapper" class="image_wrapper"></span>
-    <img id="down_image" class="image" src="../../assets/images/hack_image.jpg">  
-    <span id="right_image_wrapper" class="image_wrapper"></span>
-    <img id="right_image" class="image" src="../../assets/images/iesa-image.jpg">
-
-    <div id="card_left_wrapper" class="row">    
-        <div class="card_left">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+            <i class="fas fa-laptop-code"></i>
             <div class="card-body">
-                <h4 class="card-title">Codecademy Pro</h4>
-                <p class="card-text">
-                    Succesfully completed 4 Python Skill Paths. 
-                </p>
-                <div class="d-grid d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary me-md-2" type="button"><strong><p>+</p></strong></button>
-                </div>
+                <h2 class="card-title">Codecademy Pro</h2>
+                <p class="card-text">Four Python Skill Paths</p>
+            </div>
             </div>
         </div>
-    </div>
-    <div id="card_up_wrapper" class="row">    
-        <div class="card_up">
+        <div class="col">
+            <div class="card">
+            <i class="fas fa-bug"></i>
             <div class="card-body">
-                <h4 class="card-title">Academia Hack</h4>
-                <p class="card-text">
-                    A 6 month coding boot-camp to become a Full-Stack Web Developer.
-                </p>
-                <div class="d-grid d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary me-md-2" type="button"><strong><p>+</p></strong></button>
-                </div>
+                <h2 class="card-title">Academia Hack</h2>
+                <p class="card-text">Six month Full-Stack Web Developer boot-camp</p>
+            </div>
             </div>
         </div>
-    </div>
-    <div id="card_right_wrapper" class="row">    
-        <div class="card_right">
+        <div class="col">
+            <div class="card">
+            <i class="far fa-chart-bar"></i>
             <div class="card-body">
-                <h4 class="card-title">Instituto de Estudios Superiores de Administracion</h4>
-                <p class="card-text">
-                    Two courses of Technical Analysis for financial assets. 
-                </p>
-                <div class="d-grid d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary me-md-2" type="button"><strong><p>+</p></strong></button>
-                </div>
+                <h2 class="card-title">Instituto de Estudios Superiores de Administracion</h2>
+                <p class="card-text">Two courses of financial analysis of the stock market</p>
             </div>
+            </div>
+        </div>
+        <div id="collage" class="col">
+            <img id="codecademy" src="../../assets/images/codecademy_logo.png">
+            <img id="hack" src="../../assets/images/hack_logo.png">
+            <img id="iesa" src="../../assets/images/iesa_logo.png">
         </div>
     </div>
 
