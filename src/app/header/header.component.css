@@ -78,6 +78,9 @@ h4 {
     position: absolute;
     right: 15%;
     top: 22.7%;
+
+    -webkit-animation: scale-up-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+	        animation: scale-up-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 .profile_wrapper {
@@ -93,6 +96,32 @@ h4 {
     width: 100%;
     height: 100%;
 }
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
 
 /* ------------------------------------ */
 

@@ -1,6 +1,6 @@
 .skills_wrapper {
     width: 100%;
-    height: 65vh;
+    height: 60vh;
 
     position: relative;
     display: flex;
@@ -28,7 +28,7 @@
     font-size: 48px;
 
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 25%;
     z-index: 3;
 }

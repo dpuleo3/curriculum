@@ -1,6 +1,6 @@
 .courses_wrapper {
     width: 80%;
-    height: 95vh;
+    height: 105vh;
 
     background-color: #252525;
 
@@ -12,6 +12,7 @@
 }
 
 .courses_header {
+    top: 10%;
     position: absolute;
     color: white;
 
@@ -19,36 +20,47 @@
 }
 
 .row {
-    margin-top: 3%;
+    margin-top: 10%;
+    margin-left: 7%;
 }
 
 .col {
-    padding: 2%;
+    width: 45%;
+    padding: 1% 2%;
 }
 
 .card {
+    width: 400px;
+    height: 210px;
+
     background-color: #252525a1;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+
     color: white;
 
     align-items: center;
 }
 
-.fas, .far {
-    padding: 2.5%;
-    font-size: 75px;
+i {
+    padding: 15px;
+    font-size: 70px;
 }
 
 .card-body {
-    padding: 2%;
-    align-items: center;
+    width: 80%;
+    padding: 0;
+
+    position: relative;
 }
 
 .card-title {
     color: #F92672;
+    text-align: center;
 }
 
 .card-text {
     font-size: 18px;
+    text-align: center;
 }
 
 #collage {
@@ -65,17 +77,117 @@ img {
 }
 
 #codecademy {
+    top: -5%;
     left: 23%;
 }
 
 #hack {
-    top: 25%;
+    top: 20%;
     left: 62%;
 }
 
 #iesa {
-    top: 52%;
-    left: 35%;
+    top: 47%;
+    left: 30%;
+}
+
+#iesa:hover {
+  -webkit-animation: rotate-center 0.8s ease-in-out both;
+	        animation: rotate-center 0.8s ease-in-out both;
+}
+
+.fa-bug:hover {
+  color: #A6E22E;
+	-webkit-animation: wobble-hor-bottom 0.8s both;
+	        animation: wobble-hor-bottom 0.8s both;
+}
+/**
+ * ----------------------------------------
+ * BUG animation wobble-hor-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+/**
+ * ----------------------------------------
+ * IESA_IMAGE animation rotate-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 
