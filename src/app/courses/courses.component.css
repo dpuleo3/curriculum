@@ -12,8 +12,9 @@
 }
 
 .courses_header {
-    top: 10%;
+    top: 5%;
     position: absolute;
+
     color: white;
 
     z-index: 2;
@@ -39,6 +40,11 @@
     color: white;
 
     align-items: center;
+}
+
+.card:hover {
+  -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 i {
@@ -91,16 +97,47 @@ img {
     left: 30%;
 }
 
-#iesa:hover {
-  -webkit-animation: rotate-center 0.8s ease-in-out both;
-	        animation: rotate-center 0.8s ease-in-out both;
-}
-
 .fa-bug:hover {
   color: #A6E22E;
 	-webkit-animation: wobble-hor-bottom 0.8s both;
 	        animation: wobble-hor-bottom 0.8s both;
 }
+
+/**
+ * ----------------------------------------
+ * CARD animation shadow-pop-bl
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shadow-pop-bl {
+  0% {
+    -webkit-box-shadow: 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E;
+            box-shadow: 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: -1px 1px #A6E22E, -2px 2px #A6E22E, -3px 3px #A6E22E, -4px 4px #A6E22E, -5px 5px #A6E22E, -6px 6px #A6E22E, -7px 7px #A6E22E, -8px 8px #A6E22E;
+            box-shadow: -1px 1px #A6E22E, -2px 2px #A6E22E, -3px 3px #A6E22E, -4px 4px #A6E22E, -5px 5px #A6E22E, -6px 6px #A6E22E, -7px 7px #A6E22E, -8px 8px #A6E22E;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+@keyframes shadow-pop-bl {
+  0% {
+    -webkit-box-shadow: 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E;
+            box-shadow: 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E, 0 0 #A6E22E;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: -1px 1px #A6E22E, -2px 2px #A6E22E, -3px 3px #A6E22E, -4px 4px #A6E22E, -5px 5px #A6E22E, -6px 6px #A6E22E, -7px 7px #A6E22E, -8px 8px #A6E22E;
+            box-shadow: -1px 1px #A6E22E, -2px 2px #A6E22E, -3px 3px #A6E22E, -4px 4px #A6E22E, -5px 5px #A6E22E, -6px 6px #A6E22E, -7px 7px #A6E22E, -8px 8px #A6E22E;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+
+
 /**
  * ----------------------------------------
  * BUG animation wobble-hor-bottom
@@ -164,32 +201,6 @@ img {
               transform: translateX(-6px) rotate(-1.2deg);
     }
   }
-/**
- * ----------------------------------------
- * IESA_IMAGE animation rotate-center
- * ----------------------------------------
- */
- @-webkit-keyframes rotate-center {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-@keyframes rotate-center {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 
 /* --------------------------------------------- */
 

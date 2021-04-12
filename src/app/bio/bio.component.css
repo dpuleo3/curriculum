@@ -46,16 +46,16 @@
 }
 
 .card-body:hover {
-    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.755, 0.050, 0.855, 0.060) forwards;
-	        animation: shadow-pop-bl 0.3s cubic-bezier(0.755, 0.050, 0.855, 0.060) forwards;
+    -webkit-animation: shadow-pop-b 0.3s cubic-bezier(0.755, 0.050, 0.855, 0.060) forwards;
+	        animation: shadow-pop-b 0.3s cubic-bezier(0.755, 0.050, 0.855, 0.060) forwards;
 }
 
 /**
  * ----------------------------------------
- * animation shadow-pop-bl
+ * BIO animation shadow-pop-b
  * ----------------------------------------
  */
- @-webkit-keyframes shadow-pop-bl {
+ @-webkit-keyframes shadow-pop-b {
     0% {
       -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
               box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
@@ -69,7 +69,7 @@
               transform: translateX(8px) translateY(-8px);
     }
   }
-  @keyframes shadow-pop-bl {
+  @keyframes shadow-pop-b {
     0% {
       -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
               box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
