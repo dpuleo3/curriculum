@@ -86,7 +86,7 @@ img {
     box-sizing: border-box;
 
     background: #262626;
-    border: 1px solid #a6e22e9e;
+    border: 1px solid #FD971Fa1;
     border-radius: 2px;
 }
 
@@ -94,7 +94,7 @@ img {
     width: 100%;
     height: 5px;
 
-    background: #A6E22E;
+    background: #FD971F;
 }
 
 .center:hover #stocks {

@@ -55,17 +55,17 @@ h4 {
 .fab {
     font-size: 40px;
 
-    color: #66D9EF;
+    color: #AE81FF;
 }
 
 .fas {
     font-size: 40px;
 
-    color: #66D9EF;
+    color: #AE81FF;
 }
 
 .fab:hover, .fas:hover {
-    color: #66d8efa1;
+    color: #AE81FFa1;
 }
 
 
@@ -73,7 +73,7 @@ h4 {
     width: 25%;
     height: 80%;
 
-    background-color: #66D9EFa1;
+    background-color: #AE81FFa1;
 
     position: absolute;
     right: 15%;
@@ -185,17 +185,17 @@ h4 {
     .fab {
         font-size: 35px;
     
-        color: #66D9EF;
+        color: #AE81FF;
     }
     
     .fas {
         font-size: 35px;
     
-        color: #66D9EF;
+        color: #AE81FF;
     }
     
     .fab:hover, .fas:hover {
-        color: #66d8efa1;
+        color: #AE81FFa1;
     }
 
 }

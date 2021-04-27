@@ -40,19 +40,6 @@
 
     transition: 1s ease-in-out;
 }
-.card::before {
-    transition: 1s ease-in-out;
-
-}
-/* ----------- CARD EFFECT ------------- */
-.card:hover .card-title {
-    display: none;
-}
-.card:hover .card-text {
-    display: inline-block;
-    transform: translateY(20px);
-}
-/* ----------- CARD EFFECT ------------- */
 
 .card-title {
     font-size: 38px;
@@ -71,15 +58,7 @@
     align-items: center;
 }
 
-.card-text {
-    display: none;
-    font-size: 24px;
 
-    border-radius: 5px;
-    background-color: #F92672a1;
-
-    padding: 10px;
-}
 
 img {
     position: absolute;
@@ -95,8 +74,8 @@ img {
 }
 
 button {
-    background-color: #A6E22E;
-    border-color: #A6E22E;
+    background-color: #66d8ef;
+    border-color: #66d8ef;
     margin: 20px;
 }
 
@@ -105,8 +84,8 @@ button {
 }
 
 button:hover, button:active {
-    background-color: #a6e22e9e;
-    border-color: #a6e22e9e;
+    background-color: #66d8efa1;
+    border-color: #66d8efa1;
 }
 
 button:visited {
