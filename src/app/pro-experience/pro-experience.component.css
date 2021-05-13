@@ -44,151 +44,77 @@ img {
     height: 68%;
     top: 60%;
 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
 
     transform: translate(-50%,-50%);
     padding: 0.5%;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-
-    color: white;
 }
 
-.skillBox {
-    box-sizing: border-box;
+.carousel-wrapper {
     width: 100%;
-    margin: 20px 0;
-    padding: 2px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.skillBox p {
-    margin: 0 0 10px;
-    padding: 2px 0 1.5px 20px;
-
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 15px;
+.carousel {
+    width: 100%;
+    height: 100%;
 }
 
-.skillBox p:nth-child(2) {
-    float:right;
-    padding: 0 25px;
+.active {
+    width: 50%;
+}
+
+.carousel-inner {
+    margin-left: 100px;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    margin-top: 50px;
+}
+
+.carousel-item:active {
+    width: 10%;
+}
+
+.carousel-icon-wrapper {
+    margin-top: -10px;
+    margin-left: 30px;
     position: relative;
-    top: -32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    padding: 0;
+    color: #fff;
 }
 
-.skill {
-    width: 90%;
-
-    margin-left: 20px;
-    padding: 4px;
-    box-sizing: border-box;
-
-    background: #262626;
-    border: 1px solid #FD971Fa1;
-    border-radius: 2px;
+.carousel-icon-wrapper > i {
+    padding: 10px;
 }
 
-.skill_level {
-    width: 100%;
-    height: 5px;
-
-    background: #FD971F;
+.d-md-block {
+    position: relative;
+    margin-top: 20px;
+    margin-left: -50px;
 }
 
-.center:hover #stocks {
-    animation: stocks 5s;
-    animation-delay: 0.5s;
-    /* animation-iteration-count: infinite; */
+.carousel-caption > h3 {
+    color: #F92672;
+    font-weight: bold;
 }
 
-@keyframes stocks {
-
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 84%;
-    }
-
-}
-
-.center:hover #django {
-    animation: django 5s;
-    animation-delay: 0.5s;
-    /* animation-iteration-count: infinite; */
-
-}
-
-@keyframes django {
-
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 36%;
-    }
-
-}
-
-.center:hover #rails {
-    animation: rails 5s;
-    animation-delay: 0.5s;
-    /* animation-iteration-count: infinite; */
-
-}
-
-@keyframes rails {
-
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 58%;
-    }
-
-}
-
-.center:hover #angular {
-    animation: angular 5s;
-    animation-delay: 0.5s;
-    /* animation-iteration-count: infinite; */
-}
-
-@keyframes angular {
-
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 78%;
-    }
-
-}
-
-.center:hover #react {
-    animation: react 5s;
-    animation-delay: 0.5s;
-    /* animation-iteration-count: infinite; */
-
-}
-
-@keyframes react {
-
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 65%;
-    }
-
-}
 
 
 /* ---------------------------------------------- */
@@ -219,7 +145,5 @@ img {
         top: 2%;
         left: 5%;
     }
-
-    
 
 }
